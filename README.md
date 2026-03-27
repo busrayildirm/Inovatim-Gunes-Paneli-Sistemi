@@ -18,5 +18,5 @@ Frontend: HTML, CSS, JavaScript
 
 Yarışma: Inovatim İnovasyon Yarışması Projesi
 
-![Uploading Ekran Alıntısı1.PNG…]()
-<img width="1915" height="1035" alt="Ekran Alıntısı" src="https://github.com/user-attachments/assets/4282a21c-b61d-4e94-b68b-a74c26177472" />
+![af4f51a1-62cc-40ff-b542-830ce20ab3d0](https://github.com/user-attachments/assets/6b512f6d-b761-4762-9c7b-f8b07be9c2eb)
+![a2cdc1a5-9fa5-4307-84df-21da81ac6533](https://github.com/user-attachments/assets/51b6b15a-f6ea-430e-a4b3-18bb06f30785)
