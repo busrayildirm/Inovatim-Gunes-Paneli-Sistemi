@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8fff8;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.nav-link {
+    color: white !important;
+    transition: 0.3s;
+}
+
+    .nav-link:hover {
+        color: #a1d490 !important;
+    }
+
+.hero {
+    background: url('/images/panel3.jpg') no-repeat center center;
+    background-size: cover;
+    color: white;
+    padding: 120px 20px;
+    text-align: center;
+    border-radius: 12px;
+    margin-bottom: 40px;
+}
+
+    .hero h1 {
+        font-size: 3rem;
+        font-weight: bold;
+    }
+
+    .hero p {
+        font-size: 1.3rem;
+    }
+
+.btn-hero {
+    background-color: #28a745;
+    color: white;
+    font-size: 1.1rem;
+    padding: 12px 25px;
+    border-radius: 8px;
+    border: none;
+    transition: 0.3s;
+}
+
+    .btn-hero:hover {
+        background-color: #218838;
+        transform: scale(1.05);
+    }
+
+.card {
+    border: none;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    border-radius: 12px;
+    transition: 0.3s;
+    margin-bottom: 20px;
+}
+
+    .card:hover {
+        transform: translateY(-5px);
+    }
+
+.card-title {
+    font-weight: bold;
+    color: #2f7a2f;
+}
+
+.card-text {
+    color: #555;
+}
+
+footer {
+    font-size: 0.9rem;
+    background-color: #2f7a2f;
+    color: white;
+}
+
+form label {
+    font-weight: bold;
+}
+
+input[type="number"], input[type="text"] {
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    padding: 8px;
+}
+
+.alert-success {
+    border-radius: 8px;
+    padding: 20px;
+}
+
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 2rem;
+    }
+
+    .hero p {
+        font-size: 1rem;
+    }
+}

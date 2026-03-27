@@ -1,0 +1,28 @@
+﻿@{
+    ViewData["Title"] = "İletişim";
+}
+
+<section style="padding: 60px 20px; background-color: #e6f4ea; border-radius: 12px; text-align:center;">
+    <h1 style="font-size:2.5rem; color:#2f7a2f;">İletişim</h1>
+    <p style="max-width:700px; margin:auto; font-size:1.1rem; color:#333; margin-top:20px;">
+        Bizimle iletişime geçmek için aşağıdaki formu doldurabilirsiniz veya doğrudan e-posta gönderebilirsiniz: <strong>info@gunespaneli.com</strong>
+    </p>
+</section>
+
+<div class="container my-5" style="max-width:600px;">
+    <form>
+        <div class="mb-3">
+            <label for="name" class="form-label">İsim</label>
+            <input type="text" class="form-control" id="name" placeholder="Adınızı yazın">
+        </div>
+        <div class="mb-3">
+            <label for="email" class="form-label">E-posta</label>
+            <input type="email" class="form-control" id="email" placeholder="E-posta adresiniz">
+        </div>
+        <div class="mb-3">
+            <label for="message" class="form-label">Mesaj</label>
+            <textarea class="form-control" id="message" rows="5" placeholder="Mesajınızı yazın"></textarea>
+        </div>
+        <button type="submit" class="btn btn-hero w-100">Gönder</button>
+    </form>
+</div>

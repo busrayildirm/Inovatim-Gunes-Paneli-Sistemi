@@ -1,0 +1,21 @@
+﻿@{
+    ViewData["Title"] = "Hesaplama";
+}
+
+<section style="padding: 60px 20px; background-color: #f0f9f4; border-radius: 12px; text-align:center;">
+    <h1 style="font-size:2.5rem; color:#2f7a2f;">Enerji Hesaplama</h1>
+    <p style="max-width:700px; margin:auto; font-size:1.1rem; color:#333; margin-top:20px;">
+        Panel sayısı ve güneşlenme süresini girerek tahmini üretim ve tasarrufu hesaplayın.
+    </p>
+</section>
+
+<div class="container my-5" style="max-width:700px;">
+    <form id="calcForm">
+        <div class="mb-3">
+            <label for="panels" class="form-label">Panel Sayısı</label>
+            <input type="number" class="form-control" id="panels" placeholder="Örn: 10" min="1">
+        </div>
+        <div class="mb-3">
+            <label for="sunHours" class="form-label">Günlük Güneşlenme Süresi (saat)</label>
+            <input type="number" class="form
+
